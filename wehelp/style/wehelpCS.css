@@ -1,0 +1,106 @@
+        header{           
+            text-align: center;
+        }
+        header h2{
+            font-size: 20px;
+            font-family: "微軟正黑體";
+            font-weight: 1100;
+        }
+        /*內文邊距*/
+        article{
+            /* border: 2px solid black; */
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 15px;
+            padding: auto;
+        }
+        /*內文標題*/
+        .title h3{
+            color: rgba(2, 117, 78, 0.89);
+            font-size: 35px;
+            font-family: "微軟正黑體";
+            font-weight: bolder;
+            display: inline-flex;
+            border-bottom: 2px solid rgba(2, 117, 78, 0.89);
+            margin: 8px;
+            /* border-bottom: 1px solid black; */
+
+        }
+        /*內文文字樣式*/
+        .content{
+            font-family: "微軟正黑體";
+            font-size: 24px;
+            text-align: justify;
+            line-height: 1.7em;
+            margin-top: 3px;
+            margin-left: 80px;
+        }
+        ul{
+            margin-top: 8px ;
+            margin-bottom: 33px;
+        }
+
+        /*照片姓名學校 */
+            .top{
+                    display: flex;
+                    /* flex-direction: row; */
+                    justify-content: center;
+                    /* align-items: center; */
+            }
+            .bg{
+                    width: 1800px;
+                    height: 160px;
+                    background-color: rgba(2, 47, 32, 0.89);
+                    border-radius: 30px ;
+                    display: inline-flex;
+                    justify-content: center;
+            }
+            .topimg{
+                    display: flex;
+                    width: 140px;
+                    height: 140px;
+                    /* border: 3px solid black; */
+                    border-radius: 50%;
+                    padding: 5px;
+                    margin-top: 5px;
+                    margin-left: 110px;
+            }
+            .name{
+                    color: rgb(255, 255, 255);
+                    font-size: 86px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: bolder;
+                    /* margin: auto; */
+                    /* padding: 0px; */
+                    margin-top: 15px;
+                    margin-right: 50px;
+                    margin-left: 50px;
+            }
+            .school{
+                    color: rgb(255, 255, 255);
+                    font-size: 20px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: lighter;
+                    padding: 0.5px;
+                    margin-left: 55px;
+            }
+        /* 個人簡介與申請動機 */
+
+           .link{
+            list-style-type: none;
+            list-style-image: url(./link.png);
+           }
+           .image1{
+            display: flex;
+            margin:auto;
+            height: 380px;
+           }
+        /* 軟體工程技術相關的學習？作品 */
+        /* 參與這個訓練，會怎麼安排學習時間？ */
+           
+        /* 如何確定選擇投入的領域是正確有回報的？ */
+        /* 產生明顯負面情緒的經歷，如何處理該情緒？ */
+        /* 這份申請網頁，分享一個開發時的技術心得 */
+        /* 如何看待自身工作和整個社會群體的連結關係？ */
+        /* 其他想要對我們說的事情？ */
+        
